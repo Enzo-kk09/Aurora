@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aurora Executive Aviation — Aviação Agrícola</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-shell">
+  <div class="screen">
+
+    <div class="topbar">
+      <a class="icon-btn" href="home.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M15 5l-7 7 7 7"/></svg>
+      </a>
+      <div class="brand">
+        <img class="brand-logo" src="logo.png" alt="Aurora Executive Aviation">
+      </div>
+      <a class="icon-btn" href="notificacoes.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 9a6 6 0 1 1 12 0c0 5 2 6 2 6H4s2-1 2-6Z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg>
+      </a>
+    </div>
+
+    <div class="subheader">
+      <a class="subnav-btn" href="aviacao-comercial.html" aria-label="Categoria anterior">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 5l-7 7 7 7"/></svg>
+      </a>
+      <span class="sub-title">Aviões Agrícolas</span>
+      <a class="subnav-btn" href="aviacao-executiva.html" aria-label="Próxima categoria">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+
+    <div class="filter-row">
+      <button class="f-pill active">Todos</button>
+      <button class="f-pill">Helicóptero</button>
+      <button class="f-pill">Avião</button>
+      <div class="f-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5h16l-6 8v6l-4 2v-8L4 5Z"/></svg>
+      </div>
+    </div>
+
+    <div>
+
+      <div class="plane-card-v">
+        <img class="pv-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Embraer_EMB-202_Ipanema.jpg?width=700" alt="Embraer Ipanema 203">
+        <div class="pv-body">
+          <div class="pv-name">Embraer Ipanema 203</div>
+          <div class="pv-tag">Maior eficiência econômica</div>
+          <div class="spec-row"><span>Produtividade</span><span class="spec-val"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="6" y="3" width="12" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg>200 hectares p/ hora</span></div>
+          <div class="spec-row"><span>Capacidade</span><span class="spec-val"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></svg>1050 litros</span></div>
+          <div class="spec-row"><span>Velocidade</span><span class="spec-val"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="m15 9-4 2-2 4 4-2 2-4Z"/></svg>200 Km/h</span></div>
+          <div class="price-row">
+            <div><div class="p-label">Alugar</div><div class="p-from">a partir de</div><div class="p-value">2.500R$/hora</div></div>
+            <a href="#" class="p-cta">ALUGAR</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="plane-card-v">
+        <img class="pv-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Air_Tractor_AT-502B.jpg?width=700" alt="Air Tractor AT-502B">
+        <div class="pv-body">
+          <div class="pv-name">Air Tractor AT-502B</div>
+          <div class="pv-tag">O mais popular e elogiado entre os clientes</div>
+          <div class="spec-row"><span>Produtividade</span><span class="spec-val"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="6" y="3" width="12" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg>120 hectares p/ hora</span></div>
+          <div class="spec-row"><span>Capacidade</span><span class="spec-val"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></svg>1893 litros</span></div>
+          <div class="spec-row"><span>Velocidade</span><span class="spec-val"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="m15 9-4 2-2 4 4-2 2-4Z"/></svg>233 Km/h</span></div>
+          <div class="price-row">
+            <div><div class="p-label">Alugar</div><div class="p-from">a partir de</div><div class="p-value">1.800R$/hora</div></div>
+            <a href="#" class="p-cta">ALUGAR</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="empty-msg">Nenhuma aeronave nesta categoria.</p>
+
+  </div>
+
+  <div class="bottom-nav">
+    <a href="home.html" aria-label="Início">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M4 11.5 12 4l8 7.5"/><path d="M6 10v9h12v-9"/></svg>
+    </a>
+    <a href="busca-voos.html" aria-label="Buscar voos">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M12 21s7-6.8 7-12.5A7 7 0 0 0 5 8.5C5 14.2 12 21 12 21Z"/><circle cx="12" cy="8.5" r="2.4"/></svg>
+    </a>
+    <a href="perfil.html" aria-label="Perfil">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20c1.6-4.2 5-5.9 7.5-5.9s5.9 1.7 7.5 5.9"/></svg>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
