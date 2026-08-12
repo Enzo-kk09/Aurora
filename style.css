@@ -72,15 +72,6 @@ button {
   }
 }
 @media (min-width:640px) {
-  .category-scroll {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    overflow-x: visible;
-  }
-  .category-card {
-    flex: none;
-    width: auto;
-  }
 }
 .screen {
   flex: 1 1 auto;
