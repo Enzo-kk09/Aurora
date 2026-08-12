@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aurora Executive Aviation — Buscar voos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-shell">
+  <div class="screen">
+
+    <div class="topbar">
+      <a class="icon-btn" href="home.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M15 5l-7 7 7 7"/></svg>
+      </a>
+      <div class="brand">
+        <img class="brand-logo" src="logo.png" alt="Aurora Executive Aviation">
+      </div>
+      <a class="icon-btn" href="notificacoes.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 9a6 6 0 1 1 12 0c0 5 2 6 2 6H4s2-1 2-6Z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg>
+      </a>
+    </div>
+
+    <div class="tabs">
+      <a href="#" class="active">Helicóptero</a>
+      <a href="#">Avião</a>
+    </div>
+
+    <div class="route-card">
+      <div class="route-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.6"/></svg>
+        <div>
+          <div class="r-o">Local de partida:</div>
+          <div class="micro-label">origem</div>
+          <div class="r-v">Sapiranga</div>
+        </div>
+        <svg class="r-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      </div>
+      <div class="route-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.8-7-12.5A7 7 0 0 1 19 8.5C19 14.2 12 21 12 21Z"/><circle cx="12" cy="8.5" r="2.4"/></svg>
+        <div>
+          <div class="r-o">Local que deseja ir:</div>
+          <div class="micro-label">destino</div>
+          <div class="r-v">São Paulo</div>
+        </div>
+        <svg class="r-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      </div>
+    </div>
+
+    <div class="dt-row">
+      <div class="dt-box">
+        <span class="form-label">Data</span>
+        <div class="dt-val">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg>
+          30/07/2026
+        </div>
+      </div>
+      <div class="dt-box">
+        <span class="form-label">Horário</span>
+        <div class="dt-val">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>
+          14:30
+        </div>
+      </div>
+    </div>
+
+    <span class="form-label">Quantidade de Passageiros</span>
+    <div class="stepper-box">
+      <div class="sp-left">
+        <svg class="sp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="8.5" cy="7.5" r="3"/><circle cx="16" cy="8.5" r="2.4"/><path d="M2.5 19c.6-3.4 3-5.2 6-5.2s5.4 1.8 6 5.2"/><path d="M14.5 13.9c2.6.2 4.6 1.9 5 5.1"/></svg>
+        <span>1 Passageiro</span>
+      </div>
+      <div class="stepper">
+        <button type="button">–</button>
+        <span>1</span>
+        <button type="button">+</button>
+      </div>
+    </div>
+
+    <span class="form-label">Tipo de viagem</span>
+    <div class="pill-group">
+      <button type="button" class="active">Ida</button>
+      <button type="button">Ida e volta</button>
+      <button type="button">Multidestino</button>
+    </div>
+
+    <button type="button" class="btn btn-primary">Buscar voos disponíveis</button>
+
+  </div>
+
+  <div class="bottom-nav">
+    <a href="home.html" aria-label="Início">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M4 11.5 12 4l8 7.5"/><path d="M6 10v9h12v-9"/></svg>
+    </a>
+    <a class="active" href="busca-voos.html" aria-label="Buscar voos">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M12 21s7-6.8 7-12.5A7 7 0 0 0 5 8.5C5 14.2 12 21 12 21Z"/><circle cx="12" cy="8.5" r="2.4"/></svg>
+    </a>
+    <a href="perfil.html" aria-label="Perfil">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20c1.6-4.2 5-5.9 7.5-5.9s5.9 1.7 7.5 5.9"/></svg>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
