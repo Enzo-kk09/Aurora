@@ -452,30 +452,31 @@ button {
   background: var(--bg-3);
   color: var(--ink);
 }
+
 .category-scroll {
-  display: flex;
-  gap: 12px;
-  overflow-x: auto;
-  padding-bottom: 4px;
-  margin-bottom: 16px;
-}
-.category-scroll::-webkit-scrollbar {
-  display: none;
+display: grid;
+grid-template-columns: repeat(3, minmax(0, 1fr));
+gap: 8px;
+padding-bottom: 4px;
+margin-bottom: 16px;
+width: 100%;
 }
 .category-card {
-  position: relative;
-  flex: 0 0 130px;
-  height: 172px;
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  border: 1px solid var(--line);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 10px;
+position: relative;
+width: 100%;
+min-width: 0;
+height: 172px;
+border-radius: var(--radius-md);
+overflow: hidden;
+border: 1px solid var(--line);
+background-size: cover;
+background-position: center;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+padding: 10px;
 }
+
 .category-card::before {
   content: "";
   position: absolute;
